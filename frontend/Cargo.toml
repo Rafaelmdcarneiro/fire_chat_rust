@@ -1,0 +1,27 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+description = "Frontend for a pure Rust chat app using Axum Webhooks (multi-user), HuggingFace/Candle for LLM inference, and Leptos for a WASM frontend."
+license-file = "LICENSE"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+console_log = "1.0.0"
+leptos = { version = "0.6", features = ["csr"] }
+leptos-use = { version = "0.10", features = ["serde"] }
+log = "0.4.20"
+web-sys = "0.3.65"
+leptonic = {git = "https://github.com/lpotthast/leptonic.git" }
+icondata = { version = "0.3.0" }
+gloo-net = "0.5.0"
+serde = { version = "1.0.193", features = ["derive"] }
+time = "0.3.34"
+uuid = { version = "1.7.0", features = ["v4"] }
+
+common = {path = "../common" }
+
+[build-dependencies]
+leptonic-theme = "0.5"

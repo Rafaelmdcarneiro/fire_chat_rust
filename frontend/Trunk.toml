@@ -1,0 +1,9 @@
+[watch]
+ignore = [
+    "./generated",
+]
+
+[serve]
+address = "0.0.0.0"
+port = 16982
+open = false
