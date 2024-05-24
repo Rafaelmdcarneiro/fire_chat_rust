@@ -4,10 +4,6 @@
 
 An LLM interface implemented in pure Rust using [HuggingFace/Candle](https://github.com/huggingface/candle/) over [Axum](https://github.com/tokio-rs/axum) Websockets, an [SQLite](https://https://sqlite.org/index.html) Database, and a [Leptos](https://www.leptos.dev/) (Wasm) frontend packaged with [Tauri](https://tauri.app)!
 
-Watch the introduction video:
-[![Watch the video](https://img.youtube.com/vi/Jw1E3LnNG0o/0.jpg)](https://youtu.be/Jw1E3LnNG0o)
-
-
 ## Goals
 
 This project is designed for single and multi-user chat with many Large Language Models (LLMs).
